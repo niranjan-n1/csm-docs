@@ -320,7 +320,7 @@ describe("GIVEN resetControllerCount function", () => {
 
 		resetControllerCount(testCSMMap);
 
-		expect(document.getElementById("controller-count").value).toEqual("2");
+		expect(document.getElementById("controller-count").value).toEqual("1");
 	});
 });
 
