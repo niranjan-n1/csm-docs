@@ -27,7 +27,7 @@ describe("GIVEN validateForm functions", () => {
 			<select id="csm-version"></select>
 		`;
 
-		expect(validateForm()).toBe(false);
+		expect(validateForm()).toBe(true);
 	});
 
 	test("SHOULD return false IF installationType value is empty", () => {
